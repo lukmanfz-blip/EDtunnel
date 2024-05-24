@@ -7,7 +7,7 @@ compatibility_date = "2023-05-26"
 
 [vars]
 # UUID = "4ae758ab-8709-4fd3-89fc-793eaa77798b"
-# PROXYIP = "103.110.10.154"
+# PROXYIP = "15.235.163.231"
 # DNS_RESOLVER_URL = "https://cloudflare-dns.com/dns-query"
 # NODE_ID = "1"
 # API_TOKEN = "example_dev_token"
