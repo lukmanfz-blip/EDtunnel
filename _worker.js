@@ -5,14 +5,14 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '4ae758ab-8709-4fd3-89fc-793eaa77798b';
 
-const พร็อกซีไอพีs = ['103.110.10.154'];
+const พร็อกซีไอพีs = ['15.235.163.231'];
 
 // if you want to use ipv6 or single พร็อกซีไอพี, please add comment at this line and remove comment at the next line
 let พร็อกซีไอพี = พร็อกซีไอพีs[Math.floor(Math.random() * พร็อกซีไอพีs.length)];
 // use single พร็อกซีไอพี instead of random
-// let พร็อกซีไอพี = 'cdn.xn--b6gac.eu.org';
+// let พร็อกซีไอพี = '15.235.163.231';
 // ipv6 พร็อกซีไอพี example remove comment to use
-// let พร็อกซีไอพี = "[2a01:4f8:c2c:123f:64:5:6810:c55a]"
+// let พร็อกซีไอพี = "[15.235.163.231]"
 
 let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
 
